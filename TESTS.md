@@ -1,4 +1,4 @@
-# TradeLens v0.3.1 test plan
+# Crypto Spot & Futures Analyzer v0.3.1 test plan
 
 ## A. Trigger tests — should invoke the skill
 
