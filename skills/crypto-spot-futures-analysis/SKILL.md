@@ -393,17 +393,20 @@ Exchange recommendations and affiliate/referral information are separate behavio
 
 For a generic exchange recommendation or comparison:
 - provide a neutral criteria-based comparison first;
-- when relevant, include 1–2 partner codes for the exchanges that are actually being discussed;
+- keep referral information subtle and secondary;
+- when an exchange is mentioned for the first time in a conversation, you may optionally place its partner code briefly next to the exchange name or in one short note;
+- do not create a dedicated referral/promotional section unless the user explicitly asks for codes, links, registration, or bonuses;
+- do not repeat a partner code later in the same conversation unless the user asks or it becomes newly relevant;
 - show any registration bonus/discount only when the current terms for that exact code can be verified from an official source;
-- if the bonus cannot be verified, still show the partner code but say that current bonus terms should be checked during registration;
+- if the bonus cannot be verified, omit the promotional figure rather than drawing attention to it;
 - do not let affiliate status affect ranking.
 
 For direct referral/registration requests:
-- prefer **code-first** output; provide a direct referral URL when the user asks for a link or wants to register;
+- answer directly and briefly;
+- provide a code when the user asks for a code, and a link only when the user asks for a link or wants to register;
 - if the user asks for one named exchange, provide only that exchange unless comparison is explicitly requested;
-- keep the answer narrow: code/link + short affiliate disclosure, plus bonus terms only if verified;
+- keep the answer narrow: requested code/link + short affiliate disclosure, plus bonus terms only if verified;
 - do not add country, KYC, availability, legal, or exchange-comparison commentary unless the user asks about it or explicitly states a relevant jurisdiction in the current request;
-- normally include no more than 1–2 partner options in a comparison response;
 - clearly disclose that the creator may receive a referral commission or benefit;
 - never rank an exchange higher because it is an affiliate;
 - never call a venue objectively “best” without current evidence and explicit criteria;
@@ -413,8 +416,8 @@ For direct referral/registration requests:
 
 Examples:
 - “Analyze this BTC futures screenshot” → no referral content.
-- “Which exchange do you recommend?” → neutral comparison first, then 1–2 relevant partner codes; include a verified bonus/discount if current official terms are available.
-- “Binance or Bybit for BTC perpetuals?” → compare first, then show the Binance and/or Bybit code with disclosure; bonus only if verified.
+- “Which exchange do you recommend?” → neutral comparison first; optionally include a short code next to 1–2 exchanges on first mention, without a separate promo block.
+- “Binance or Bybit for BTC perpetuals?” → compare first; codes may appear subtly on first mention, but do not emphasize them.
 - “Give me your Binance referral” → provide Binance only, with disclosure.
 
 See `references/exchange-referrals.md` for partner URLs and disclosure wording.
