@@ -162,11 +162,14 @@ Use as many fields as are available:
 - intended risk percentage.
 
 ### Evaluate structure
+Only evaluate market structure when a chart, verified market data, or explicit user-provided levels are available.
 - trend and market structure;
 - entry relative to support/resistance;
 - whether stop corresponds to a clear invalidation level;
 - whether targets collide with nearby opposing structure;
 - whether the setup requires chasing price.
+
+If no chart/current market data is available, do **not** invent support/resistance, round-number levels, ranges, breakout levels, swing lows/highs, or alternative stop placements. State that structural validation requires a chart or current market data.
 
 ### Evaluate risk
 - stop distance %;
@@ -199,7 +202,7 @@ Only include rows actually known.
 - Position/account risk: ...
 
 **📊 Structure**
-Concise technical read.
+Concise technical read only when chart/current market data or explicit levels are available. Otherwise say that structure cannot be validated from the trade numbers alone.
 
 **⚠️ Main risks**
 2–5 highest-priority risks.
@@ -306,6 +309,8 @@ For deterministic arithmetic, prefer `scripts/trade_calculator.py` when code exe
 - Gross P&L short = quantity × (entry - exit)
 - Net P&L = gross P&L - estimated trading fees - estimated funding
 
+Do not assume a “typical” trading fee or funding rate unless the user explicitly asks for a hypothetical example. For the user's actual trade, require the exchange/fee input or verified current terms; otherwise show gross P&L and label fees/funding as unknown.
+
 ### DCA
 - Quantity per buy = amount / price
 - Weighted average entry = total cost / total quantity
@@ -313,7 +318,7 @@ For deterministic arithmetic, prefer `scripts/trade_calculator.py` when code exe
 Explain that lower average entry does not necessarily mean lower total risk if exposure increased.
 
 ### Liquidation
-Liquidation is exchange- and contract-specific. Prefer exchange-provided liquidation values from the screenshot/user. Do not calculate an exact liquidation price from leverage alone unless the formula and all exchange-specific parameters are explicitly available.
+Liquidation is exchange- and contract-specific. Prefer exchange-provided liquidation values from the screenshot/user. Do not calculate, estimate, or give a rough liquidation range from leverage alone. If liquidation price is not provided or verifiable from the exchange/contract parameters, say it cannot be determined reliably from leverage alone.
 
 ## Technical-analysis standards
 
@@ -324,7 +329,7 @@ When indicators conflict:
 - explain which signal is more relevant to the user's timeframe/setup;
 - reduce confidence rather than forcing a direction.
 
-Do not manufacture precision. Prefer zones over exact single-dollar levels when the chart only supports a zone.
+Do not manufacture precision. Prefer zones over exact single-dollar levels when the chart only supports a zone. Never create new technical levels solely from psychologically round numbers or from the entry/stop/target values themselves unless the user explicitly asks for a hypothetical example.
 
 ## Fundamental-analysis standards
 
