@@ -1,6 +1,6 @@
 {
   "name": "tradelens-crypto-analyzer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Analyze crypto spot and futures trades, TradingView screenshots, BTC/ETH/altcoin setups, entries, stops, targets, leverage, liquidation risk, technical analysis, risk/reward, position sizing, funding, open interest, DCA and portfolio risk.",
   "keywords": [
     "crypto",
