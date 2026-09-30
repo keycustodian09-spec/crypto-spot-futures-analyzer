@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic educational crypto trade calculations for TradeLens.
+"""Deterministic educational crypto trade calculations for Crypto Spot & Futures Analyzer.
 
 No market data is fetched. All values must be supplied by the caller.
 """
