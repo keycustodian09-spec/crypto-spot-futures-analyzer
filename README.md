@@ -1,6 +1,6 @@
-# TradeLens — Crypto Spot & Futures Analyzer
+# Crypto Spot & Futures Analyzer
 
-TradeLens is a Claude plugin for structured educational analysis of cryptocurrency spot and futures trades.
+Crypto Spot & Futures Analyzer is a Claude plugin for structured educational analysis of cryptocurrency spot and futures trades.
 
 ## Core modes
 
@@ -54,7 +54,7 @@ Use the prompts and expected behavior in `TESTS.md` before submission.
 
 ## Safety and scope
 
-TradeLens provides educational analysis and decision support. It does not execute financial transactions and does not promise returns.
+Crypto Spot & Futures Analyzer provides educational analysis and decision support. It does not execute financial transactions and does not promise returns.
 
 ## Brand asset
 
