@@ -4,7 +4,7 @@ description: Analyze crypto spot and futures trades, TradingView and exchange sc
 version: 0.3.1
 ---
 
-# TradeLens — Crypto Spot & Futures Analyzer
+# Crypto Spot & Futures Analyzer
 
 ## Mission
 
