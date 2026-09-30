@@ -1,18 +1,18 @@
-# TradeLens — Marketplace Package v0.3.1
+# Crypto Spot & Futures Analyzer — Marketplace Package v0.3.1
 
 ## Marketplace icon
 
-Use the prepared TradeLens Bitcoin icon as the public listing icon. Keep the icon out of `plugin.json` unless the current submission portal explicitly exposes a supported manifest field for it; upload/select it in the portal instead.
+Use the prepared Crypto Spot & Futures Analyzer Bitcoin icon as the public listing icon. Keep the icon out of `plugin.json` unless the current submission portal explicitly exposes a supported manifest field for it; upload/select it in the portal instead.
 
 ## Recommended listing name
 
-**TradeLens — Crypto Spot & Futures Analyzer**
+**Crypto Spot & Futures Analyzer**
 
 Why this name: it keeps a memorable brand while placing the strongest discovery terms directly in the visible title: **crypto**, **spot**, **futures**, and **analyzer**.
 
 Fallback title if the directory enforces a shorter label:
 
-**TradeLens — Crypto Trade Analyzer**
+**Crypto Spot & Futures Analyzer — Crypto Trade Analyzer**
 
 ## Plugin slug
 
@@ -30,13 +30,13 @@ Analyze crypto spot & futures trades, TradingView screenshots, entries, stops, t
 
 ## Full description
 
-TradeLens is a crypto trading analyzer for spot and futures traders. It reviews BTC, ETH and altcoin setups, TradingView or exchange screenshots, and open positions.
+Crypto Spot & Futures Analyzer is a crypto trading analyzer for spot and futures traders. It reviews BTC, ETH and altcoin setups, TradingView or exchange screenshots, and open positions.
 
-Analyze entries, stop losses, take-profit levels, leverage, margin, liquidation risk, reward-to-risk, position sizing, hypothetical P&L, fees and funding when the required inputs are available. TradeLens can also review support and resistance, market structure, volume, RSI, MACD and EMA when visible or available.
+Analyze entries, stop losses, take-profit levels, leverage, margin, liquidation risk, reward-to-risk, position sizing, hypothetical P&L, fees and funding when the required inputs are available. Crypto Spot & Futures Analyzer can also review support and resistance, market structure, volume, RSI, MACD and EMA when visible or available.
 
-For spot and longer-horizon ideas, TradeLens can evaluate DCA plans, concentration risk, token fundamentals, supply, unlocks, catalysts and portfolio exposure. For futures, it prioritizes leverage, liquidation, cross-margin risk, funding and open interest when those data are verifiable.
+For spot and longer-horizon ideas, Crypto Spot & Futures Analyzer can evaluate DCA plans, concentration risk, token fundamentals, supply, unlocks, catalysts and portfolio exposure. For futures, it prioritizes leverage, liquidation, cross-margin risk, funding and open interest when those data are verifiable.
 
-TradeLens separates screenshot data, user-provided inputs and current verified data. It does not invent live prices, news, funding rates, open interest, token unlocks, exchange fees or bonus terms. It provides educational analysis and scenario-based risk framing; it does not execute trades or transfer crypto.
+Crypto Spot & Futures Analyzer separates screenshot data, user-provided inputs and current verified data. It does not invent live prices, news, funding rates, open interest, token unlocks, exchange fees or bonus terms. It provides educational analysis and scenario-based risk framing; it does not execute trades or transfer crypto.
 
 ## Core search intents
 
@@ -123,7 +123,7 @@ Secondary terms:
 
 ## Referral behavior for review
 
-TradeLens does not append promotions to trading analysis. Affiliate information is contextual only: exchange choice, registration, fees, KYC, regional availability, or an explicit referral request. It is disclosed and does not determine ranking. Promotional bonus claims must be verified from official current exchange sources before being shown.
+Crypto Spot & Futures Analyzer does not append promotions to trading analysis. Affiliate information is contextual only: exchange choice, registration, fees, KYC, regional availability, or an explicit referral request. It is disclosed and does not determine ranking. Promotional bonus claims must be verified from official current exchange sources before being shown.
 
 ## Post-launch search optimization loop
 
