@@ -33,5 +33,6 @@
   ],
   "author": {
     "name": "Crypto Spot & Futures Analyzer"
-  }
+  },
+  "license": "MIT"
 }
