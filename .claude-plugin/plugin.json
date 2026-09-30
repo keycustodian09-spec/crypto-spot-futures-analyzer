@@ -1,0 +1,37 @@
+{
+  "name": "tradelens-crypto-analyzer",
+  "version": "0.3.1",
+  "description": "Analyze crypto spot and futures trades, TradingView screenshots, BTC/ETH/altcoin setups, entries, stops, targets, leverage, liquidation risk, technical analysis, risk/reward, position sizing, funding, open interest, DCA and portfolio risk.",
+  "keywords": [
+    "crypto",
+    "crypto-trading",
+    "crypto-analyzer",
+    "crypto-trade-analyzer",
+    "crypto-trading-assistant",
+    "spot-trading",
+    "futures-trading",
+    "perpetual-futures",
+    "bitcoin",
+    "btc-analysis",
+    "ethereum",
+    "eth-analysis",
+    "technical-analysis",
+    "chart-analysis",
+    "tradingview",
+    "screenshot-analysis",
+    "support-resistance",
+    "risk-reward",
+    "position-sizing",
+    "stop-loss",
+    "take-profit",
+    "leverage",
+    "liquidation",
+    "funding-rate",
+    "open-interest",
+    "dca",
+    "portfolio-risk"
+  ],
+  "author": {
+    "name": "TradeLens"
+  }
+}
