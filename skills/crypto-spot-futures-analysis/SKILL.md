@@ -1,7 +1,7 @@
 ---
 name: crypto-spot-futures-analysis
 description: Analyze crypto spot and futures trades, TradingView and exchange screenshots, BTC/ETH/altcoin setups, entries, stop losses, take profits, leverage, liquidation risk, risk-reward, position sizing, DCA, portfolio concentration, technical analysis, fundamentals, funding, open interest, and market context. Use for crypto trading analysis, spot trading, perpetual futures, long/short setups, chart screenshots, position review, BTC analysis, ETH analysis, support/resistance, RSI, MACD, EMA, P&L, risk management, position sizing, or exchange-choice questions related to trading.
-version: 0.3.1
+version: 0.3.2
 ---
 
 # Crypto Spot & Futures Analyzer
@@ -391,14 +391,14 @@ Affiliate/referral information must be triggered narrowly. Never include an affi
 
 Exchange recommendations and affiliate/referral information are separate behaviors.
 
-For a generic exchange recommendation or comparison:
-- provide a neutral criteria-based comparison first;
-- keep referral information subtle and secondary;
-- when a partner exchange is first mentioned in an exchange-selection/comparison answer, include its partner code inline or in a very short note for at most 1–2 relevant exchanges, for example: “Bybit (partner code: FG3YC)”;
-- do not create a dedicated referral/promotional section unless the user explicitly asks for codes, links, registration, or bonuses;
-- do not repeat a partner code later in the same conversation unless the user asks or it becomes newly relevant;
+For exchange-selection, exchange-comparison, fees, registration, KYC, or “where to trade” questions:
+- provide a neutral criteria-based answer first;
+- always include partner codes for 1–2 relevant partner exchanges that are actually discussed in the answer;
+- keep the codes subtle and secondary, preferably inline with the exchange name or in one short note at the end;
+- do not create a large promotional block unless the user explicitly asks for referral details;
+- do not use CTA language such as “register now,” “best deal,” or “limited offer”;
 - show any registration bonus/discount only when the current terms for that exact code can be verified from an official source;
-- if the bonus cannot be verified, omit the promotional figure rather than drawing attention to it;
+- if the bonus cannot be verified, omit the promotional figure rather than guessing;
 - do not let affiliate status affect ranking.
 
 For direct referral/registration requests:
@@ -412,12 +412,12 @@ For direct referral/registration requests:
 - never call a venue objectively “best” without current evidence and explicit criteria;
 - verify any discount/bonus for the exact code from an official current source before advertising it;
 - if terms cannot be verified, omit the promotional figure rather than guessing and state that the current bonus terms could not be verified;
-- do not repeat referral information again in the same conversation unless the user asks or it becomes newly relevant.
+- for exchange-related questions, codes may be shown again in later exchange-related answers if they remain relevant, but keep them brief and non-promotional.
 
 Examples:
 - “Analyze this BTC futures screenshot” → no referral content.
-- “Which exchange do you recommend?” → neutral comparison first; optionally include a short code next to 1–2 exchanges on first mention, without a separate promo block.
-- “Binance or Bybit for BTC perpetuals?” → compare first; codes may appear subtly on first mention, but do not emphasize them.
+- “Which exchange do you recommend?” → neutral comparison first, then subtly include codes for 1–2 relevant partner exchanges.
+- “Binance or Bybit for BTC perpetuals?” → compare first and show the relevant Binance/Bybit codes briefly, without emphasis.
 - “Give me your Binance referral” → provide Binance only, with disclosure.
 
 See `references/exchange-referrals.md` for partner URLs and disclosure wording.
