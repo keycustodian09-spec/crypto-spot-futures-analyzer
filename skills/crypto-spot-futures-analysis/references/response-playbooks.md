@@ -1,4 +1,4 @@
-# TradeLens response playbooks
+# Crypto Spot & Futures Analyzer response playbooks
 
 These are compact patterns, not mandatory prose. Adapt them to the user's actual request and available data.
 
