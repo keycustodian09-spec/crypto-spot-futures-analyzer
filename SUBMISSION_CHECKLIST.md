@@ -1,4 +1,4 @@
-# Submission Checklist — TradeLens v0.3.1
+# Submission Checklist — Crypto Spot & Futures Analyzer v0.3.1
 
 ## Plugin package
 - [x] `.claude-plugin/plugin.json` present
