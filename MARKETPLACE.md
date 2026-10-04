@@ -1,4 +1,4 @@
-# Crypto Spot & Futures Analyzer — Marketplace Package v0.3.1
+# Crypto Spot & Futures Analyzer — Marketplace Package v0.3.3
 
 ## Marketplace icon
 
@@ -16,7 +16,7 @@ Fallback title if the directory enforces a shorter label:
 
 ## Plugin slug
 
-`tradelens-crypto-analyzer`
+`crypto-spot-futures-analyzer`
 
 Keep the slug stable after publication.
 
@@ -123,7 +123,7 @@ Secondary terms:
 
 ## Referral behavior for review
 
-Crypto Spot & Futures Analyzer does not append promotions to trading analysis. Affiliate information is contextual only: exchange choice, registration, fees, KYC, regional availability, or an explicit referral request. It is disclosed and does not determine ranking. Promotional bonus claims must be verified from official current exchange sources before being shown.
+Crypto Spot & Futures Analyzer shows exchange bonuses and registration codes only when the user asks or accepts the optional invitation. Ordinary exchange comparisons, chart and position reviews contain no codes or registration links. A substantive market, news or coin overview may end once with: «Если хочешь узнать о бонусах на криптобиржах — только скажи!» Skip repeated invitations, calculations, introductions and declined promotions. Codes are disclosed and do not determine ranking. Verify current terms for the exact code before presenting discounts or bonus figures.
 
 ## Post-launch search optimization loop
 

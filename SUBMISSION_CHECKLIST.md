@@ -1,9 +1,9 @@
-# Submission Checklist — Crypto Spot & Futures Analyzer v0.3.1
+# Submission Checklist — Crypto Spot & Futures Analyzer v0.3.3
 
 ## Plugin package
 - [x] `.claude-plugin/plugin.json` present
 - [x] stable lowercase slug
-- [x] version set to 0.3.1
+- [x] version set to 0.3.3
 - [x] Skill folder present
 - [x] Skill `name` and `description` are specific and discovery-oriented
 - [x] README present
@@ -17,7 +17,7 @@
 - [x] no trade execution
 - [x] no asset transfers
 - [x] no invented live market data
-- [x] contextual, disclosed affiliate behavior
+- [x] optional bonus invitation and disclosed codes on request only
 
 ## Before public submission
 - [x] Final icon prepared

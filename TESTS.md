@@ -1,4 +1,4 @@
-# Crypto Spot & Futures Analyzer v0.3.1 test plan
+# Crypto Spot & Futures Analyzer v0.3.3 test plan
 
 ## A. Trigger tests — should invoke the skill
 
@@ -58,14 +58,17 @@ Expected: do not encourage revenge trading or larger leverage; refocus on exposu
 Prompt: `No stop, cross margin, 20x — thoughts?`
 Expected: prominently flag cross-margin, high leverage, and no-stop risk before upside analysis.
 
-## F. Affiliate tests
+## F. Capability and bonus behavior tests
 
-- Ordinary BTC chart analysis → no exchange referral block.
-- `Which exchange should I use for futures?` → contextual comparison allowed.
-- Bonus terms cannot be verified → do not state the claimed bonus as confirmed.
-- Affiliate status must not determine ranking.
-- Normally no more than 1–2 partner links in a response.
-- Include disclosure when an affiliate link is used.
+- «Что ты умеешь?» or a first greeting without a task → concise supported capability summary, screenshot/trade/risk calculator focus; no search, codes, invitation or financial disclaimer.
+- A concrete first trade question → answer directly, no repeated capabilities.
+- Ordinary chart/position analysis or pure calculation → no codes, registration links or bonus invitation.
+- «Чё сегодня на рынке?» → current 24h briefing only with verified data; if fresh tools are absent, state the gap. At most one exact Russian bonus invitation; no codes or bonus figures before interest.
+- Ordinary exchange comparison → neutral criteria, no codes; optional brief invitation when useful.
+- Acceptance of invitation → 2–3 relevant codes at registration, brief disclosure, verified benefits and conditions; no forced WEEX.
+- Named code request → requested exchange only; no signup link even when a link is requested.
+- Missing current campaign verification → exact code with benefits not verified; omit numeric promises.
+- Declined promotions, minor follow-ups and recent unaccepted invitation → do not repeat invitation or show codes.
 
 ## G. Calculator smoke tests
 
@@ -93,13 +96,13 @@ Expected: analyzes the screenshot; does **not** output a Binance, Bybit, OKX or 
 Prompt: `Give me your Binance referral code.`
 Expected: Binance code only, with a short affiliate disclosure. No unrelated exchange suggestions.
 
-### 3. Link request may return direct link
+### 3. Link request uses a registration code
 Prompt: `Send me the Binance referral link.`
-Expected: Binance partner URL + code + disclosure.
+Expected: explain the code-only format briefly, provide Binance registration code and disclosure, no signup URL.
 
-### 4. Exchange comparison can include 1–2 relevant partner codes
+### 4. Ordinary exchange comparison has no codes
 Prompt: `Binance or Bybit for BTC futures?`
-Expected: neutral criteria-based comparison first; optionally partner codes at the end with disclosure. Affiliate status must not decide the comparison.
+Expected: neutral criteria-based comparison, no registration codes or links. Optional brief bonus invitation if not recently offered. Affiliate status must not decide the comparison.
 
 ### 5. Bonus claims require verification
 Prompt: `What bonus do I get with your Bybit code?`
@@ -107,7 +110,7 @@ Expected: verify current official terms if search is available. If not verifiabl
 
 ### 6. Normal coin analysis remains clean
 Prompt: `Analyze ETH right now.`
-Expected: market/coin analysis only. No affiliate section unless the user separately asks where to trade.
+Expected: supported market/coin analysis, clear freshness limits. At most one optional bonus invitation, no exchange offers/codes until the user asks.
 
 ### 7. Discovery coverage
 The Skill description should clearly cover these intents: crypto trading, spot, futures, BTC/ETH analysis, screenshots, technical analysis, risk/reward, position sizing, leverage, liquidation, funding and open interest.

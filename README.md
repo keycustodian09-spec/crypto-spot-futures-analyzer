@@ -10,6 +10,17 @@ Crypto Spot & Futures Analyzer is a Claude plugin for structured educational ana
 4. **Futures Context** — funding, open interest, leverage and derivatives risk when verified data is available.
 5. **Position & Risk Calculator** — deterministic position sizing, R:R, P&L, fees, funding and DCA arithmetic.
 
+## Getting started
+
+Ask "What can you do?" for a concise capability summary, or start directly with a chart, position or market question. Examples:
+
+- «Что ты умеешь?»
+- «Чё сегодня на рынке?»
+- «Разбери мой скриншот BTC: уровни, сценарии и риски».
+- «Какие есть бонусы и коды при регистрации?»
+
+A first greeting without a task gets a short introduction; a concrete first question is answered directly.
+
 ## v0.3 architecture
 
 This version is intentionally serverless. It uses:
@@ -45,7 +56,7 @@ tradelens-crypto-analyzer/
 - Screenshot facts are kept separate from interpretation.
 - Conditional scenarios instead of guaranteed directional calls.
 - Risk math is deterministic when inputs are available.
-- Affiliate/referral information is narrowly triggered, code-first, disclosed and secondary to analysis.
+- Bonus information and registration codes appear only on request, without registration links, with a brief partner disclosure. Ordinary exchange comparisons contain no codes. A substantive market, news or coin overview may end with one optional bonus invitation, without repeating it on minor follow-ups.
 - No trade execution or financial-asset transfers.
 
 ## Testing
