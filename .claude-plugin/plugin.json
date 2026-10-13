@@ -1,7 +1,7 @@
 {
   "name": "crypto-spot-futures-analyzer",
-  "version": "0.3.3",
-  "description": "Analyze crypto spot and futures trades, TradingView screenshots, BTC/ETH/altcoin setups, entries, stops, targets, leverage, liquidation risk, technical analysis, risk/reward, position sizing, funding, open interest, DCA and portfolio risk.",
+  "version": "0.3.4",
+  "description": "Analyze crypto spot and futures trades, TradingView and exchange screenshots, BTC/ETH/altcoin setups, open positions, entries, stops, targets, leverage, liquidation risk, technical analysis, risk/reward, position sizing, P&L, funding, open interest, DCA and current market context.",
   "keywords": [
     "crypto",
     "crypto-trading",
