@@ -17,11 +17,11 @@ Ask "What can you do?" for a concise capability summary, or start directly with 
 - «Что ты умеешь?»
 - «Чё сегодня на рынке?»
 - «Разбери мой скриншот BTC: уровни, сценарии и риски».
-- «Какие есть бонусы и коды при регистрации?»
+- «Какую биржу выбрать для фьючерсов и какие есть коды при регистрации?»
 
 A first greeting without a task gets a short introduction; a concrete first question is answered directly.
 
-## v0.3 architecture
+## Architecture
 
 This version is intentionally serverless. It uses:
 
@@ -34,7 +34,7 @@ It does not require exchange API keys, place trades, transfer funds, or monitor 
 ## Structure
 
 ```text
-tradelens-crypto-analyzer/
+crypto-spot-futures-analyzer/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── skills/
@@ -56,7 +56,7 @@ tradelens-crypto-analyzer/
 - Screenshot facts are kept separate from interpretation.
 - Conditional scenarios instead of guaranteed directional calls.
 - Risk math is deterministic when inputs are available.
-- Bonus information and registration codes appear only on request, without registration links, with a brief partner disclosure. Ordinary exchange comparisons contain no codes. A substantive market, news or coin overview may end with one optional bonus invitation, without repeating it on minor follow-ups.
+- Exchange comparisons stay analysis-first. When the user asks about exchanges, fees, KYC or registration, 1–2 relevant partner registration codes may appear briefly with disclosure. No affiliate registration links and no promo blocks in ordinary chart/position analysis.
 - No trade execution or financial-asset transfers.
 
 ## Testing
@@ -69,4 +69,4 @@ Crypto Spot & Futures Analyzer provides educational analysis and decision suppor
 
 ## Brand asset
 
-Marketplace icon: `assets/tradelens-icon.png`
+Marketplace icon: `.claude-plugin/icon.svg`
