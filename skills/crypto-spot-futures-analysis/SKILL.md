@@ -1,6 +1,6 @@
 ---
 name: crypto-spot-futures-analysis
-description: Analyze crypto spot and futures trades, TradingView and exchange screenshots, BTC/ETH/altcoin setups, entries, stop losses, take profits, leverage, liquidation risk, risk-reward, position sizing, DCA, portfolio concentration, technical analysis, fundamentals, funding, open interest, and market context. Use for crypto trading analysis, spot trading, perpetual futures, long/short setups, chart screenshots, position review, BTC analysis, ETH analysis, support/resistance, RSI, MACD, EMA, P&L, risk management, position sizing, exchange-choice questions related to trading, a capability introduction, or exchange bonuses and registration codes on request.
+description: Analyzes crypto spot and futures trades, TradingView and exchange screenshots, open positions, BTC/ETH/SOL and altcoin setups, long/short entries, stops, targets, leverage, liquidation risk, risk-reward, position sizing, P&L, DCA, technical analysis, fundamentals, funding, open interest, and current market context. Use for crypto trading analysis, today's crypto market, spot or perpetual futures, chart/screenshot review, position review, BTC/ETH/altcoin analysis, support/resistance, RSI, MACD, EMA, risk management, exchange comparisons, fees, KYC, or registration codes.
 ---
 
 # Crypto Spot & Futures Analyzer
@@ -389,23 +389,23 @@ If the user appears to be chasing losses or revenge trading:
 
 Never promise recovery, guaranteed returns, or a “sure” setup.
 
-## Optional bonus invitation
+## Exchange codes and bonuses
 
-First finish the user's substantive request. For a substantive crypto market overview, news analysis or coin report, append at most one optional sentence in the user's language. Russian default, use this exact sentence: 'Если хочешь узнать о бонусах на криптобиржах — только скажи!' English default: 'If you want to learn about exchange bonuses, just ask!'
+Do not add promotional invitations to ordinary market, coin, chart, position or calculator answers. Referral content belongs only in exchange-related requests or when the user explicitly asks for a code/bonus.
 
-The invitation must not promise an available or guaranteed reward. Do not list exchanges, codes, discounts or bonus amounts before the user asks. Exchange mentions used for analysis or evidence stay plain. Skip the invitation on chart-only screenshot analysis, trade/position risk reviews, pure calculations, greetings, simple definitions, declined/no-promotion requests, repeated minor follow-ups, or when it has already been offered recently and the user has not expressed interest. Do not re-add it to a bonus answer itself.
+## Exchange codes and bonus details
 
-## Exchange bonuses on request
+For exchange-selection, exchange-comparison, fees, KYC, registration, or “where to trade” questions, load `references/exchange-referrals.md` and keep partner information secondary to the substantive comparison. Include 1–2 relevant registration codes briefly, preferably inline with the exchange name or in one short note at the end. Do not create a large promotional block unless the user explicitly asks for codes, links, registration or bonuses.
 
-Recognize 'show bonuses', 'what bonuses?', 'yes, show me' in response to the invitation, or a direct request for promo/registration codes as interest in this workflow. Load `references/exchange-referrals.md`. When residency or new/existing account status is needed to assess eligibility, ask only for those relevant details; if they are missing, a general comparison must be labeled conditional rather than presented as eligible offers.
+For a direct bonus/code request, answer narrowly. When residency or new/existing account status is needed to assess eligibility, ask only for those relevant details; if they are missing, label the comparison conditional rather than presenting the user as eligible.
 
-Provide a compact table with exchange, exact code at registration, currently verified discount/bonus, and the main requirements. Usually select 2–3 relevant options; expand when requested. Separate fee discounts from deposit/trading-volume rewards, and withdrawable cash from trading credits. Never say a user receives the headline maximum simply for registering.
+When the user explicitly asks for bonuses, a compact table may include exchange, exact code at registration, currently verified discount/bonus, and main requirements. Separate fee discounts from deposit/trading-volume rewards, and withdrawable cash from trading credits. Never say a user receives the headline maximum simply for registering.
 
 Treat the reference's author-supplied offer descriptions as research leads, not verified current benefits. Verify each specific code and campaign on current official pages before stating a discount, lifetime term or bonus amount. Check region, account eligibility, KYC, deposit, trading-volume threshold, expiry, claim window and reward type. When current verification is unavailable, show the exact code with 'benefits not verified' instead of an invented offer or the unverified headline amount. Never guarantee no KYC or withdrawal access.
 
 Use codes only: never include affiliate links, registration URLs or signup buttons. Official evidence links and source citations remain allowed. Format code labels as 'код при регистрации' in Russian and 'registration code' in English. Use only recorded codes; never invent one. Do not automatically append WEEX or steer users to a partner regardless of fit.
 
-When codes appear, add one brief disclosure in the user's language: 'Коды партнёрские: автор может получить комиссию.' Respect an explicit request to omit partner content.
+When codes appear, add one brief disclosure in the user's language: 'Коды партнёрские: автор может получить комиссию.' Keep codes brief and non-promotional; no “register now”, urgency, or “best deal” language. Exchange-related follow-ups may repeat relevant codes, but do not repeat them in ordinary trading analysis. Respect an explicit request to omit partner content.
 
 ## Exchange comparison
 
@@ -414,7 +414,7 @@ Offer this workflow when the user explicitly asks to choose/compare a trading pl
 1. Establish country of residence and relevant service (spot, derivatives, fiat purchase, withdrawals, staking) when eligibility matters. Ask if missing; otherwise give a qualified general comparison. Never assume language equals residence or suggest evading restrictions/KYC.
 2. Verify region eligibility, the exact asset/network/product, fees, liquidity, funding when relevant, deposit/withdrawal costs, and KYC/withdrawal requirements on current official pages. Distinguish residency from citizenship if the rules do. Never guarantee no KYC, uninterrupted access, or withdrawal eligibility.
 3. Select platforms by user fit. Include a suitable nonpartner when evidence warrants it. Never automatically append WEEX or rank a partner higher because of compensation.
-4. In ordinary platform comparisons, show the substantive differences without codes. Offer the optional bonus invitation when useful. If the request also asks for bonuses or codes, use the Exchange bonuses workflow. Never include registration links.
+4. In ordinary platform comparisons, show the substantive differences first, then include 1–2 relevant registration codes subtly. Do not use a dedicated promo block unless requested. Never include registration links.
 5. Preserve the exact spelling/case of user-supplied codes when requested. Treat them as author-provided registration metadata, not verified benefits or availability.
 6. Verify a discount or bonus for the specific code and current campaign before stating it as available. Read conditions such as eligible region/account type, KYC, deposit, trading volume, expiry, claim window, and whether rewards are withdrawable cash or trading credits. If verification is unavailable, show a code only if useful and say its benefits were not verified; omit numerical promises.
 7. Include the brief code disclosure once when codes appear. Do not imply that users pay no extra or receive a particular discount unless verified.
@@ -436,7 +436,7 @@ Use confidence language calibrated to evidence: “supports,” “suggests,” 
 
 ## Current data and sources
 
-When current search/data tools are available, cite material current claims such as:
+When current search/data tools are available, verify and cite material current claims. For “today”, “right now”, “current market” or similar requests, prefer sources/data from the current day when available and state the observation time when it materially affects interpretation. Cite:
 - price;
 - funding;
 - open interest;
