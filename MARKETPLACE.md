@@ -1,4 +1,4 @@
-# Crypto Spot & Futures Analyzer — Marketplace Package v0.3.3
+# Crypto Spot & Futures Analyzer — Marketplace Package v0.3.4
 
 ## Marketplace icon
 
@@ -12,7 +12,7 @@ Why this name: it keeps a memorable brand while placing the strongest discovery 
 
 Fallback title if the directory enforces a shorter label:
 
-**Crypto Spot & Futures Analyzer — Crypto Trade Analyzer**
+**Crypto Trade & Futures Analyzer**
 
 ## Plugin slug
 
@@ -123,7 +123,7 @@ Secondary terms:
 
 ## Referral behavior for review
 
-Crypto Spot & Futures Analyzer shows exchange bonuses and registration codes only when the user asks or accepts the optional invitation. Ordinary exchange comparisons, chart and position reviews contain no codes or registration links. A substantive market, news or coin overview may end once with: «Если хочешь узнать о бонусах на криптобиржах — только скажи!» Skip repeated invitations, calculations, introductions and declined promotions. Codes are disclosed and do not determine ranking. Verify current terms for the exact code before presenting discounts or bonus figures.
+Crypto Spot & Futures Analyzer keeps affiliate content secondary. Chart, position, coin and calculator answers contain no partner promotion. For exchange-selection, fee, KYC or registration questions, the answer remains comparison-first and may show 1–2 relevant registration codes briefly with disclosure. No affiliate registration links or CTA blocks. Verify current terms for the exact code before presenting discounts or bonus figures.
 
 ## Post-launch search optimization loop
 
